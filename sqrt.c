@@ -12,7 +12,7 @@ int main(int argc, char* argv[]) {
 	char zero[] = "0";
 
 	if (argc != 2) {
-		printf("Usage: sqrt input\n\n");
+		printf("NEGSUPPORT: Usage: sqrt input\n\n");
 		exit(-1);
 	}
 
@@ -21,16 +21,16 @@ int main(int argc, char* argv[]) {
 	if(input == 0)
 	if(strcmp(zero, argv[1]) != 0)
 	{
-		printf("The input is not a valid number. \n");
+		printf("NEGSUPPORT: The input is not a valid number. \n");
 		exit(-1);
 	}
 
 	if(input >= 0)
-	printf("Sqrt of %d is %f\n",input,sqrt(input));
+	printf("NEGSUPPORT: Sqrt of %d is %f\n",input,sqrt(input));
 	else
-	printf("Sqrt of %d is %fi\n",input,sqrt(abs(input)));
+	printf("NEGSUPPORT: Sqrt of %d is %fi\n",input,sqrt(abs(input)));
 
-	printf("End of program. Now Exiting. \n");
+	printf("NEGSUPPORT: End of program. Now Exiting. \n");
 	return(0);
 
 } // end main
