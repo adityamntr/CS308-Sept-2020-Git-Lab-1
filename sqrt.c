@@ -17,6 +17,8 @@ int main(int argc, char* argv[]) {
 	printf("Sqrt of %d is %f\n",input,sqrt(input));
 	else
 	printf("Sqrt for a negative number does not exist\n");
+
+	printf("End of program. Exiting. \n");
 	return(0);
 
 } // end main
